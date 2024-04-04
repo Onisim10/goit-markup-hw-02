@@ -1,0 +1,42 @@
+:root {
+    --blue: #2196F3;
+    --white: #FFFFFF;
+    --black:#212121;
+    --light-black: #757575;
+    --primary-font: 'roboto', sans-serif;
+    --secundary-font: 'releway', sans-serif;
+}
+
+.header {
+    
+}
+
+.header__logo {
+    
+    font-family: 'releway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30 px
+    color: var(--blue);
+    letter-spacing: 3%;
+}
+
+.header__about li {
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px
+    color: var(--black)
+    letter-spacing
+}
+
+
+.header__info {
+    list-style: none;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px 
+    color: var(--blue);
+    letter-spacing: 2%;

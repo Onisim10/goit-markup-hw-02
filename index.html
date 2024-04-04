@@ -3,39 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/.homework1style.css/style.css">
+    <link rel="stylesheet" href="/.css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
 
   <body>
     <!--header section-->
-    <header>
-      <nav>
-        <h3><a href="#">WebStudio</a></h3>
-        <ul>
+    <header class="header">
+      <nav class="header__navigation">
+        <h3 class="header__logo"><h3><a href="#">WebStudio</a></h3></h3>
+        <ul class="header__about">
           <li><a href="#">Studio</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
+      <!--info section-->
+      <ul class="header__info">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+12127724150">12127724150</a></li>
       </ul>
       </header>
       <section>
         <h1>EFFECTIVE SOLUTIONS FOR <br />YOUR BUSINESS</h1>
-        <button type="button">Request our service</button>
+        <button class="request" type="button">Request our service</button>
       </section>
     
 
-    <!--main section-->
+    <!--hero section-->
     <main>
-      <section>
+      <section class="hero-section">
         <ul>
           <li>
-            <h5>ATTENTION TO DETAILS</h5>
-            <p>
+            <h5 class="hero-section__subtitle">ATTENTION TO DETAILS</h5>
+            <p class="hero-section__text">
               We go into all the details and processes <br />of your business to
               develop <br />a customized solution
             </p>
@@ -57,19 +64,19 @@
           <li>
             <h5>MODERN TECHNOLOGIES</h5>
             <p>
-              We use innovative tools to solve assigned tasks. It's time to
-              simplify work processes.
+              We use innovative tools to solve <br>assigned tasks. It's time to
+              simplify work <br>processes.
             </p>
           </li>
         </ul>
       </section>
 
-      <!--images section-->
+      <!--what we do section-->
       <section>
         <h2>What we do</h2>
-        <img src="images/photo-1.jpg" alt="we-write-code" width="150" />
-        <img src="images/photo-2.jpg" alt="protection-for-mobile" width="150" />
-        <img src="images/photo-3.jpg" alt="color-design" width="150" />
+        <img src="goit-markup-hw-01/images/photo-1.jpg" alt="we-write-code" width="150" />
+        <img src="goit-markup-hw-01/images/photo-2.jpg" alt="protection-for-mobile" width="150" />
+        <img src="goit-markup-hw-01/images/photo-3.jpg" alt="color-design" width="150" />
       </section>
 
       <!--the team section-->
@@ -78,7 +85,7 @@
         <ul>
           <li>
             <img
-              src="images/product-designer.jpg"
+              src="goit-markup-hw-01/images/product-designer.jpg"
               alt="product-designer"
               width="150"
             />
@@ -88,7 +95,7 @@
 
           <li>
             <img
-              src="images/frontend-developer.jpg"
+              src="goit-markup-hw-01/images/frontend-developer.jpg"
               alt="frontend-developer"
               width="150"
             />
@@ -97,13 +104,13 @@
           </li>
 
           <li>
-            <img src="images/marketing.jpg" alt="marketing" width="150" />
+            <img src="goit-markup-hw-01/images/marketing.jpg" alt="marketing" width="150" />
             <p>Ryan Harris</p>
             <p></p>
             Marketing
           </li>
           <li>
-            <img src="images/ui-designer.jpg" alt="ui-designer" width="150" />
+            <img src="goit-markup-hw-01/images/ui-designer.jpg" alt="ui-designer" width="150" />
             <p>Tyler Moore</p>
             <p>UI Designer</p>
           </li>
