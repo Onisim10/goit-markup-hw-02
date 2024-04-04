@@ -12,7 +12,7 @@
 }
 
 .header__logo {
-    
+    text-decoration-color: #2196F3;
     font-family: 'releway',sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -21,14 +21,14 @@
     letter-spacing: 3%;
 }
 
-.header__about li {
+.header__about {
     text-decoration: none;
     font-family: 'roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 16.41px
     color: var(--black)
-    letter-spacing
+    letter-spacing: 3%;
 }
 
 
