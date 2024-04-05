@@ -1,14 +1,18 @@
 :root {
     --blue: #2196F3;
     --white: rgba(255, 255, 255, 1);
-    --black: #212121;
-    --light-black: #757575;
+    --black: rgba(33, 33, 33, 1);
+    --light-black: rgba(117, 117, 117, 1);
     --primary-font: 'roboto', sans-serif;
     --secundary-font: 'releway', sans-serif;
+
+body {
+font-family: var(--primary-font);
 }
+
 .header__about {
     list-style: none;
-    }
+}
 .header__about a {
     text-decoration: none;
 }
@@ -18,14 +22,31 @@
 }
 
 
-.title {
+.solution__title: {
     font-family: 'roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white)
     letter-spacing: 6%;
     align-items: center;
 }
- 
-.
+
+ .solution__booking-button: { 
+    font family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(:white);
+    letter-spacing: 6%;
+}
+
+
+ .hero-section__text: {
+     font-family: 'roboto', sans-serif;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 16px;
+     color: var(black);
+     letter-spacing: 6%;
+ }
