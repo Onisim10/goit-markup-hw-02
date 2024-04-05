@@ -1,110 +1,31 @@
 :root {
     --blue: #2196F3;
-    --white: #FFFFFF;
+    --white: rgba(255, 255, 255, 1);
     --black: #212121;
     --light-black: #757575;
     --primary-font: 'roboto', sans-serif;
     --secundary-font: 'releway', sans-serif;
 }
-body {
-    font-family: var(--primary-font);
-}
-.header {
-    
-}
-
-.header__logo a {
-    text-decoration: none;
-    font-family: 'releway',sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30 px
-    color: var(--blue);
-    letter-spacing: 3%;
-}
-.header__navigation {
-        list-style: none;
-        text-decoration: none;
-        font-family: 'roboto', sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16.41px;
-        color: var(--black)
-        letter-spacing: 3%;
-    }
-
-    
-
-
-.header__info li {
+.header__about {
     list-style: none;
+    }
+.header__about a {
     text-decoration: none;
-    font-family: 'roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px 
-    color: var(--blue);
-    letter-spacing: 2%;
 }
 
 .solution {
-    background-color: #2F303A; 
+    background-color: rgba(47, 48, 58, 1);
 }
- .title {
+
+
+.title {
     font-family: 'roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60 px;
-    color: var(--white);
+    line-height: 60px;
+    color: rgba(255, 255, 255, 1);
     letter-spacing: 6%;
-    align-content: center;
- }
-
-
-.button {
-        text-decoration: none;
-        font-family: 'roboto', sans-serif;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 30 px; 
-        color: var(--white);
-        letter-spacing: 3%;
-        align-content: center;
-        background-color: #2196F3;;
+    align-items: center;
 }
-/* hero section*/
-.hero-section__subtitle h5{
-font-family: 'roboto', sans-serif;
-    list-style: none;
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 16 px;
-    color: var(--black);
-    letter-spacing: 3%;
-}
-.hero-section__text p {
-    font-family: 'roboto', sans-serif;
-    text-decoration: none;
-        font-weight: 900;
-        font-size: 14px;
-        line-height: 16 px;
-        color: var(--black);
-        letter-spacing: 3%;
-    }
-
-/* footeer section*/
-.footeer {
-    background-color: #2F303A;
-}
-.footer a {
-    list-style: none;
-    text-decoration:none ;
-}
-.footer__adress: {
-    font-family: 'roboto', sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16 px;
-        color: var(--white);
-        letter-spacing: 3%;
-}
+ 
+.
