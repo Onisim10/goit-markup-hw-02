@@ -1,18 +1,20 @@
 :root {
     --blue: #2196F3;
     --white: #FFFFFF;
-    --black:#212121;
+    --black: #212121;
     --light-black: #757575;
     --primary-font: 'roboto', sans-serif;
     --secundary-font: 'releway', sans-serif;
 }
-
+body {
+    font-family: var(--primary-font);
+}
 .header {
     
 }
 
-.header__logo {
-    text-decoration-color: #2196F3;
+.header__logo a {
+    text-decoration: none;
     font-family: 'releway',sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -20,23 +22,89 @@
     color: var(--blue);
     letter-spacing: 3%;
 }
+.header__navigation {
+        list-style: none;
+        text-decoration: none;
+        font-family: 'roboto', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.41px;
+        color: var(--black)
+        letter-spacing: 3%;
+    }
 
-.header__about {
-    text-decoration: none;
-    font-family: 'roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16.41px
-    color: var(--black)
-    letter-spacing: 3%;
-}
+    
 
 
-.header__info {
+.header__info li {
     list-style: none;
+    text-decoration: none;
     font-family: 'roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px 
     color: var(--blue);
     letter-spacing: 2%;
+}
+
+.solution {
+    background-color: #2F303A; 
+}
+ .title {
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60 px;
+    color: var(--white);
+    letter-spacing: 6%;
+    align-content: center;
+ }
+
+
+.button {
+        text-decoration: none;
+        font-family: 'roboto', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30 px; 
+        color: var(--white);
+        letter-spacing: 3%;
+        align-content: center;
+        background-color: #2196F3;;
+}
+/* hero section*/
+.hero-section__subtitle h5{
+font-family: 'roboto', sans-serif;
+    list-style: none;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16 px;
+    color: var(--black);
+    letter-spacing: 3%;
+}
+.hero-section__text p {
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 16 px;
+        color: var(--black);
+        letter-spacing: 3%;
+    }
+
+/* footeer section*/
+.footeer {
+    background-color: #2F303A;
+}
+.footer a {
+    list-style: none;
+    text-decoration:none ;
+}
+.footer__adress: {
+    font-family: 'roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16 px;
+        color: var(--white);
+        letter-spacing: 3%;
+}
