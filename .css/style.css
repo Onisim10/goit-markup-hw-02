@@ -3,50 +3,162 @@
     --white: rgba(255, 255, 255, 1);
     --black: rgba(33, 33, 33, 1);
     --light-black: rgba(117, 117, 117, 1);
+    --button-color: #F5F4FA;
+    --background-color: rgba(47, 48, 58, 1);
+    --another-color: rgba(255, 255, 255, 0.6);
     --primary-font: 'roboto', sans-serif;
-    --secundary-font: 'releway', sans-serif;
+    --secundary-font: 'raleway', sans-serif;
 
-body {
-font-family: var(--primary-font);
 }
-
-.header__about {
+main {
+    font-family: var(--primary-font);
+}   
+li {
     list-style: none;
 }
-.header__about a {
+a {
     text-decoration: none;
 }
 
+.logo a {
+text-decoration: none;
+    color: var(--blue);
+    font-family: var(--secundary-font);
+    font-size: 26px;
+}
+.logo a span {
+    color: var(--black);
+}
+.about a { 
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--black);
+}
+.about__studio:hover {
+    color: var(--blue);
+}
+.header__info a {
+    color: var(--light-black);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+}
+.header__mail:hover {
+    color: var(--blue);
+
+}
 .solution {
-    background-color: rgba(47, 48, 58, 1);
+    background-color: var(--background-color);
 }
-
-
-.solution__title: {
-    font-family: 'roboto', sans-serif;
-    font-weight: 900;
+.solution__title {
+    color: var(--white);
+    font-family: var(--primary-font);
     font-size: 44px;
+    font-weight: 900;
     line-height: 60px;
-    color: var(--white)
-    letter-spacing: 6%;
-    align-items: center;
+    letter-spacing: 0.06em;
+    text-align: center;
 }
-
- .solution__booking-button: { 
-    font family: 'roboto', sans-serif;
-    font-weight: 700;
+.solution__button {
+font-family: var(--primary-font);
+color: var(--white);
     font-size: 16px;
+    font-weight: 700;
     line-height: 30px;
-    color: var(:white);
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    background-color: var(--blue);
+    text-align: left;
+}
+.solution__button :hover {
+ color: var(--blue);
+    
+}
+.hero-section h5 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.hero-section p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-align: left;
+}
+.main h2 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42.19px;
+        letter-spacing: 0.03em;
+        text-align: center;
 }
 
+.what-we-do img {
+    width: 370px;
+        height: 294px;
+        top: 1061px;
+        left: 215px;
+        gap: 0px;
+        opacity: 0px;
+}
+.the-team img {
+    width: 270px;
+        height: 260px;
+        top: 1635px;
+        left: 215px;
+        gap: 0px;
+        opacity: 0px;
 
- .hero-section__text: {
-     font-family: 'roboto', sans-serif;
-     font-weight: 700;
-     font-size: 14px;
-     line-height: 16px;
-     color: var(black);
-     letter-spacing: 6%;
- }
+}
+.the-team h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.the-team p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: var(--light-black);
+}
+.footer {
+    background-color: var(--background-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 3%;}
+
+.footer__logo {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--blue);
+    font-family: var(--secundary-font);
+    line-height: 30%;
+    font-size: 26px;
+    letter-spacing: 3%;
+}
+
+.footer__logo span {
+    color: var(--black);
+}
+.footer__adr {
+    font-style: normal;
+    color: var(--white);
+}
+
+.footer__mail {
+    color: var(--another-color);
+}
+
+.footer__tel {
+    color: var(--another-color);
+}
