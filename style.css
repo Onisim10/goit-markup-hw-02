@@ -1,116 +1,111 @@
 :root {
-    --blue: #2196F3;
-    --white: rgba(255, 255, 255, 1);
-    --black: rgba(33, 33, 33, 1);
-    --light-black: rgba(117, 117, 117, 1);
-    --button-color: #F5F4FA;
-    --footer-color: rgba(47, 48, 58, 1);
-    --another-color: rgba(255, 255, 255, 0.6);
-    --primary-font: 'roboto', sans-serif;
-    --secundary-font: 'raleway', sans-serif;
-    
+  --blue: #2196f3;
+  --white: rgba(255, 255, 255, 1);
+  --black: rgba(33, 33, 33, 1);
+  --light-black: rgba(117, 117, 117, 1);
+  --button-color: #f5f4fa;
+  --footer-color: rgba(47, 48, 58, 1);
+  --another-color: rgba(255, 255, 255, 0.6);
+  --primary-font: 'roboto', sans-serif;
+  --secundary-font: 'raleway', sans-serif;
 }
 
 main {
-    font-family: var(--primary-font);
+  font-family: var(--primary-font);
 }
 li {
-    list-style: none;
+  list-style: none;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .logo {
-    text-decoration: none;
-        color: var(--blue);
-        font-family: var(--secundary-font);
-        font-size: 26px;
+  text-decoration: none;
+  color: var(--blue);
+  font-family: var(--secundary-font);
+  font-size: 26px;
 }
 .logo span {
-    color: var(--black);
+  color: var(--black);
 }
 
 .about a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: var(--black);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--black);
 }
 .about__p:hover {
-    color: var(--blue);
-    
+  color: var(--blue);
 }
 .info a {
-
-    color: var(--light-black);
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;   
- }
+  color: var(--light-black);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
 .buttons {
-    border: none;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        color: var(--black);
-        align-content: center;
-        border-radius: 4px;
-        
-        
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black);
+  align-content: center;
+  border-radius: 4px;
 }
 .buttons :hover {
-    background-color: var(--blue);
-    border: none;
+  background-color: var(--blue);
+  border: none;
 }
 
 .img img {
-        width: 370px;
-        height: 294px;
-        opacity: 0px;
+  width: 370px;
+  height: 294px;
+  opacity: 0px;
 }
 .img h5 {
-        font-weight: 700;
-        font-size: 18px;
-        line-height:36px;
-        color: var(--black);
-        letter-spacing: 6%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--black);
+  letter-spacing: 6%;
 }
 .img h6 {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        color: var(--light-black);
-        letter-spacing: 6%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--light-black);
+  letter-spacing: 6%;
 }
 .footer {
-    background-color: var(--footer-color);
-    font-family: var(--primary-font);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 3%;
+  background-color: var(--footer-color);
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 3%;
 }
 
 .footer__logo {
-    text-decoration: none;
-    font-weight: 700;
-    color: var(--blue);
-    font-family: var(--secundary-font);
-    line-height: 30%;
-    font-size: 26px;
-    letter-spacing: 3%;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--blue);
+  font-family: var(--secundary-font);
+  line-height: 30%;
+  font-size: 26px;
+  letter-spacing: 3%;
 }
 
 .footer__logo span {
-    color: var(--black);
+  color: var(--black);
 }
 .footer__adr {
-    font-style: normal;
-    color: var(--white);   
+  font-style: normal;
+  color: var(--white);
 }
 .footer__mail {
-    color: var(--another-color);
-}   
+  color: var(--another-color);
+}
 .footer__tel {
-color: var(--another-color);
+  color: var(--another-color);
 }
