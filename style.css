@@ -9,6 +9,11 @@
   --primary-font: 'roboto', sans-serif;
   --secundary-font: 'raleway', sans-serif;
 }
+body {
+  font-family: 'roboto', sans-serif;
+  font-family: 'raleway', sans-serif;
+  color: var(--black);
+}
 
 main {
   font-family: var(--primary-font);
@@ -37,6 +42,7 @@ a {
 }
 .about__p:hover {
   color: var(--blue);
+  
 }
 .info a {
   color: var(--light-black);
