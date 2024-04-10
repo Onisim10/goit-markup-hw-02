@@ -24,13 +24,14 @@ li {
 a {
   text-decoration: none;
 }
-.logo {
+.logo a {
   text-decoration: none;
   color: var(--blue);
   font-family: var(--secundary-font);
   font-size: 26px;
 }
-.logo span {
+
+.logo a span {
   color: var(--black);
 }
 
@@ -40,17 +41,33 @@ a {
   line-height: 16px;
   color: var(--black);
 }
-.about__p:hover {
+
+.about a:hover {
   color: var(--blue);
-  
 }
-.info a {
+
+.about a:focus {
+  color: var(--blue);
+}
+
+.header__info a {
   color: var(--light-black);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
 }
+
+.header__info a:hover {
+  display: flex;
+  color: var(--blue);
+}
+
+.header__info a:focus {
+  color: var(--blue);
+}
 .buttons {
+  cursor: pointer;
+  color: var(--light-black);
   border: none;
   font-weight: 500;
   font-size: 16px;
@@ -60,8 +77,13 @@ a {
   border-radius: 4px;
 }
 .buttons :hover {
+  opacity: .5;
   background-color: var(--blue);
-  border: none;
+  color: var(--white);
+}
+.buttons :focus {
+  color: var(--white);
+  background-color: var(--blue);
 }
 
 .img img {
@@ -91,6 +113,17 @@ a {
   line-height: 16px;
   letter-spacing: 3%;
 }
+.footer__adr:hover,
+.footer__mail:hover,
+.footer__tel:hover {
+  color: var(--blue);
+}
+
+.footer__adr:focus,
+.footer__mail:focus,
+.footer__tel:focus {
+  color: var(--blue);
+}
 
 .footer__logo {
   text-decoration: none;
@@ -105,13 +138,13 @@ a {
 .footer__logo span {
   color: var(--black);
 }
+
 .footer__adr {
   font-style: normal;
   color: var(--white);
 }
-.footer__mail {
-  color: var(--another-color);
-}
+
+.footer__mail,
 .footer__tel {
   color: var(--another-color);
 }

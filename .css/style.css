@@ -4,16 +4,16 @@
   --black: rgba(33, 33, 33, 1);
   --light-black: rgba(117, 117, 117, 1);
   --button-color: #f5f4fa;
-  --background-color: rgba(47, 48, 58, 1);
+  --footer-color: rgba(47, 48, 58, 1);
   --another-color: rgba(255, 255, 255, 0.6);
   --primary-font: 'roboto', sans-serif;
   --secundary-font: 'raleway', sans-serif;
 }
 
 body {
-    font-family: 'roboto', sans-serif;
-    font-family: 'raleway', sans-serif;
-    color: var(--black);
+  font-family: 'roboto', sans-serif;
+  font-family: 'raleway', sans-serif;
+  color: var(--black);
 }
 
 main {
@@ -45,7 +45,7 @@ a {
   color: var(--blue);
 }
 .about a:focus {
-color: var(--blue)
+  color: var(--blue);
 }
 
 .header__info a {
@@ -57,13 +57,12 @@ color: var(--blue)
 .header__info a:hover {
   display: flex;
   color: var(--blue);
-
 }
 .header__info a:focus {
-  color: var(--blue)
+  color: var(--blue);
 }
 .solution {
-  background-color: var(--background-color);
+  background-color: var(--footer-color);
 }
 .solution__title {
   color: var(--white);
@@ -86,15 +85,14 @@ color: var(--blue)
   background-color: var(--blue);
   text-align: left;
 }
-.solution__button:hover {
-background-color: transparent;
-color: var(--white);
+.solution__button :hover {
+  background-color: var(blue);
+  color: var(--white);
 }
- .solution__button:focus {
-   background-color: transparent;
-   color: var(--white);}
-
-
+.solution__button :focus {
+  color: var(--white);
+    background-color: var(--blue);
+}
 
 .hero-section h5 {
   font-size: 14px;
@@ -150,18 +148,22 @@ color: var(--white);
   color: var(--light-black);
 }
 .footer {
-  background-color: var(--background-color);
+  background-color: var(--footer-color);
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 3%;
 }
-.footer__adr:hover, .footer__mail:hover, .footer__tel:hover {
+.footer__adr:hover,
+.footer__mail:hover,
+.footer__tel:hover {
   color: var(--blue);
 }
-.footer__adr:focus, .footer__mail:focus, .footer__tel:focus {
-   color: var(--blue);
+.footer__adr:focus,
+.footer__mail:focus,
+.footer__tel:focus {
+  color: var(--blue);
 }
 
 .footer__logo {
@@ -174,8 +176,6 @@ color: var(--white);
   letter-spacing: 3%;
 }
 
-  
-
 .footer__logo span {
   color: var(--black);
 }
@@ -184,10 +184,8 @@ color: var(--white);
   color: var(--white);
 }
 
-.footer__mail {
+.footer__mail, .footer__tel {
   color: var(--another-color);
 }
 
-.footer__tel {
-  color: var(--another-color);
-}
+
