@@ -58,7 +58,6 @@ a {
 }
 
 .header__info a:hover {
-  display: flex;
   color: var(--blue);
 }
 
@@ -68,16 +67,16 @@ a {
 .buttons {
   cursor: pointer;
   color: var(--light-black);
-  border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   color: var(--black);
   align-content: center;
   border-radius: 4px;
+  border: none;
 }
 .buttons :hover {
-  opacity: .5;
+  border: none;
   background-color: var(--blue);
   color: var(--white);
 }
