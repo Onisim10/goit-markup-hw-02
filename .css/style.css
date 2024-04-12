@@ -91,7 +91,6 @@ a {
   border: none;
   background-color: blue;
   color: var(--white);
-  
 }
 .button:focus {
   background-color: blue;
@@ -175,7 +174,6 @@ a {
 .img img {
   width: 370px;
   height: 294px;
-  opacity: 0px;
 }
 
 .img h5 {
@@ -183,7 +181,7 @@ a {
   font-size: 18px;
   line-height: 36px;
   color: var(--black);
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 
 .img h6 {
@@ -191,7 +189,7 @@ a {
   font-size: 16px;
   line-height: 30px;
   color: var(--light-black);
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 .footer {
   background-color: var(--footer-color);
