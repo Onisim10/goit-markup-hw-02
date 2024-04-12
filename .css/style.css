@@ -6,13 +6,13 @@
   --button-color: #f5f4fa;
   --footer-color: rgba(47, 48, 58, 1);
   --another-color: rgba(255, 255, 255, 0.6);
+  --button-color: rgba(245, 244, 250, 1);
   --primary-font: 'roboto', sans-serif;
   --secundary-font: 'raleway', sans-serif;
 }
 
 body {
-  font-family: 'roboto', sans-serif;
-  font-family: 'raleway', sans-serif;
+  font-family: var(--primary-font);
   color: var(--black);
 }
 
@@ -85,11 +85,13 @@ a {
   background-color: var(--blue);
   border-radius: 4px;
   border: none;
+  padding: 10px 19px 10px 20px;
 }
 .button:hover {
   border: none;
   background-color: blue;
   color: var(--white);
+  
 }
 .button:focus {
   background-color: blue;
@@ -146,6 +148,50 @@ a {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--light-black);
+}
+.buttons button {
+  cursor: pointer;
+  background-color: var(--button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black);
+  align-content: center;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 22px;
+}
+
+.buttons :hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.buttons :focus {
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.img img {
+  width: 370px;
+  height: 294px;
+  opacity: 0px;
+}
+
+.img h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--black);
+  letter-spacing: 6%;
+}
+
+.img h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--light-black);
+  letter-spacing: 6%;
 }
 .footer {
   background-color: var(--footer-color);
